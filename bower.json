@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/fernandoaurelio/Portfolio",
+  "authors": [
+    "Fernando Slivera <fernandoslivera@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "breakpoint-sass": "^2.7.1",
+    "sass-flex-mixin": "^1.0.3"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
