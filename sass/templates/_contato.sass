@@ -9,3 +9,56 @@ header
 		size: cover
 	h1
 		margin-top: 120px !important
+
+.contato
+	form
+		
+		+clearfix
+		+make-sm-column(8)
+		+make-sm-column-offset(2)
+		.colunarow
+			+make-row
+
+		.coluna
+			+make-sm-column(6)
+
+		input,
+		select,
+		textarea
+			width: 100%
+			border: none
+			text-transform: uppercase
+			padding: 8px
+
+			&:hover
+				+transition(.3s)
+				border-bottom: 2px solid $azul
+
+
+			&:focus
+				border-bottom: 2px solid $verde
+
+
+		button
+			display: table
+			margin: 0 auto
+			+transition(0.3s)
+	.bg-success,
+	.bg-danger
+		+border-radius(90px)
+		padding: 7px
+		font-size: 12pt
+		text-align: center
+
+
+	.meufone
+		color: $azul
+		+make-sm-column(4)
+		+make-sm-column-offset(2)
+	
+	.meuemail
+		color: $verde
+		+make-sm-column(4)
+		+make-sm-column-offset(1)
+	
+
